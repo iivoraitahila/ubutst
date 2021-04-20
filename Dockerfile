@@ -3,6 +3,7 @@ RUN apt-get update -y
 RUN apt-get install -y telnet
 RUN apt-get install -y traceroute
 RUN apt-get install -y postgresql-client
+RUN apt-get install -y openssh-server
 
 # Run the container in the background
 ENTRYPOINT ["tail"]
