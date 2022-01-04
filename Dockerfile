@@ -8,6 +8,7 @@ RUN apt-get install -y postgresql-client
 RUN apt-get install -y mysql-client 
 RUN apt-get install -y ssh
 RUN apt-get install -y nano vim
+RUN apt-get install -y stress
 
 # Run the container in the background
 ENTRYPOINT ["tail"]
