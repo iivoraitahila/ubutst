@@ -9,6 +9,7 @@ RUN apt-get install -y mysql-client
 RUN apt-get install -y ssh
 RUN apt-get install -y nano vim
 RUN apt-get install -y stress
+RUN apt-get install -y lynx
 
 # Run the container in the background
 ENTRYPOINT ["tail"]
