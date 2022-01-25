@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
 RUN apt-get update -y 
 RUN apt-get install -y netcat
+RUN apt-get install -y dnsutils
 RUN apt-get install -y curl
 RUN apt-get install -y telnet
 RUN apt-get install -y traceroute
